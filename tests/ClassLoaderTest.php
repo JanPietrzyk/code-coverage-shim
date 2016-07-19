@@ -12,6 +12,7 @@ class ClassLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(class_exists('PHP_CodeCoverage_Report_Clover'), 'PHP_CodeCoverage_Report_Clover missing');
         $this->assertTrue(class_exists('PHP_CodeCoverage_Report_HTML'), 'PHP_CodeCoverage_Report_HTML missing');
         $this->assertTrue(interface_exists('PHP_CodeCoverage_Exception'), 'PHP_CodeCoverage_Exception missing');
+        $this->assertTrue(class_exists('PHP_CodeCoverage_Filter'), 'PHP_CodeCoverage_Filter missing');
     }
 
     public function test_new_classes_are_present()
@@ -21,6 +22,7 @@ class ClassLoaderTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(class_exists('SebastianBergmann\CodeCoverage\Report\PHP'), 'SebastianBergmann\CodeCoverage\Report\PHP missing');
         $this->assertTrue(class_exists('SebastianBergmann\CodeCoverage\Report\Clover'), 'SebastianBergmann\CodeCoverage\Report\Clover missing');
         $this->assertTrue(class_exists('SebastianBergmann\CodeCoverage\Report\Html\Facade'), 'SebastianBergmann\CodeCoverage\Report\Html\Facade missing');
+        $this->assertTrue(class_exists('SebastianBergmann\CodeCoverage\Filter'), 'SebastianBergmann\CodeCoverage\Filter missing');
         $this->assertTrue(interface_exists('SebastianBergmann\CodeCoverage\Exception'), 'SebastianBergmann\CodeCoverage\Exception missing');
     }
 
