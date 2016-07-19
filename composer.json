@@ -1,5 +1,5 @@
 {
-    "name": "janpiet/php-version-transpiler",
+    "name": "JanPietrzyk/code-coverage-shim",
     "description": "A shim for the new namespaces of the php code coverage lib by sebstian bergmann",
     "minimum-stability": "dev",
     "prefer-stable": true,
